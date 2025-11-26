@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Madrasah</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Madrasah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galery">Galery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#program">Program Madrasah</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mts">MTS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ma">MA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#madinin">MADININ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#psb">PSB</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-light text-center p-5">
+    <h1 class="display-4">Selamat Datang di Website Madrasah</h1>
+    <p class="lead">Portal resmi informasi dan kegiatan madrasah</p>
+  </header>
+
+  <!-- Content Sections -->
+  <div class="container my-5">
+    <section id="home" class="mb-5">
+      <h2>Home</h2>
+      <p>Halaman utama website madrasah.</p>
+    </section>
+
+    <section id="galery" class="mb-5">
+      <h2>Galery</h2>
+      <div class="row">
+        <div class="col-md-4"><div class="card"><img src="https://via.placeholder.com/300" class="card-img-top"><div class="card-body"><p class="card-text">Foto kegiatan 1</p></div></div></div>
+        <div class="col-md-4"><div class="card"><img src="https://via.placeholder.com/300" class="card-img-top"><div class="card-body"><p class="card-text">Foto kegiatan 2</p></div></div></div>
+        <div class="col-md-4"><div class="card"><img src="https://via.placeholder.com/300" class="card-img-top"><div class="card-body"><p class="card-text">Foto kegiatan 3</p></div></div></div>
+      </div>
+    </section>
+
+    <section id="program" class="mb-5">
+      <h2>Program Madrasah</h2>
+      <p>Informasi program pendidikan dan kegiatan madrasah.</p>
+    </section>
+
+    <section id="mts" class="mb-5">
+      <h2>MTS</h2>
+      <p>Halaman khusus untuk Madrasah Tsanawiyah.</p>
+    </section>
+
+    <section id="ma" class="mb-5">
+      <h2>MA</h2>
+      <p>Halaman khusus untuk Madrasah Aliyah.</p>
+    </section>
+
+    <section id="madinin" class="mb-5">
+      <h2>MADININ</h2>
+      <p>Halaman khusus untuk Madrasah Diniyah.</p>
+    </section>
+
+    <!-- PSB Section -->
+    <section id="psb" class="mb-5">
+      <h2>Formulir PSB</h2>
+      <p>Silakan isi formulir di bawah ini untuk mendaftar sebagai siswa baru.</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="nama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="nama" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="hp" class="form-label">Nomor HP</label>
+          <input type="tel" class="form-control" id="hp" required>
+        </div>
+        <div class="col-md-6">
+          <label for="jurusan" class="form-label">Jurusan</label>
+          <select id="jurusan" class="form-select" required>
+            <option value="">Pilih...</option>
+            <option>MTS</option>
+            <option>MA</option>
+            <option>MADININ</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="alamat" class="form-label">Alamat</label>
+          <textarea class="form-control" id="alamat" rows="3" required></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Kirim Pendaftaran</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center p-3">
+    <p>&copy; 2025 Website Madrasah</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
